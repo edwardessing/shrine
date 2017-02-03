@@ -26,13 +26,11 @@
     "travis-ci": "^2.1.1"
   },
   "scripts": {
-    "build-html": "node_modules/metalsmith/bin/metalsmith",
-    "build": "npm run build-html",
-    "watch-html": "onchange './layouts/*.jade' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
-    "start": "npm run build && npm run watch-html",
     "move": "mv ./src/CNAME ./build/",
-    "test": "echo \"Error: no test specified.\"",
-    "deploy": "surge --project /home/travis/build/edwardessing/shrine/build --domain shrine.edwardessing.surge.sh"
+    "test": "echo 'command not used'",
+    "start": "npm run build",
+    "build": "metalsmith",
+    "deploy": "surge --project ./build/ --domain shrine.edwardessing.surge.sh"
   },
   "author": "Edward Essing <edwardessing@gmail.com> (http://edwardessing.com)",
   "main": "build.js",
