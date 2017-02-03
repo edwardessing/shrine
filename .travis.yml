@@ -4,4 +4,4 @@ node_js:
 after_success:
   # - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && npm run deploy
   # - test $TRAVIS_PULL_REQUEST && npm run deploy-pr -- --domain pr-$TRAVIS_PULL_REQUEST.shrine.edwardessing.surge.sh
-  - surge --project ./build --domain shrine.edwardessing.surge.sh
+  - surge --project /home/travis/build/edwardessing/shrine/build --domain shrine.edwardessing.surge.sh
