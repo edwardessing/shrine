@@ -28,8 +28,7 @@
   "scripts": {
     "move": "mv ./src/CNAME ./build/",
     "test": "echo 'command not used'",
-    // "start": "node_modules/metalsmith/bin/metalsmith",
-    "build": "metalsmith",
+    "start": "node start",
     "deploy": "surge --project ./build/ --domain http://www.shrine.edwardessing.com"
   },
   "author": "Edward Essing <edwardessing@gmail.com> (http://www.edwardessing.com)",
