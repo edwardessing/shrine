@@ -1,0 +1,21 @@
+prose:
+		# Configurations ...
+	rooturl: 'src'
+	siteurl: 'http://shrine.edwardessing.com/'
+	metadata:
+		src:
+			- name: 'title'
+				field:
+					element: 'text'
+					label: 'Title'
+			- name: 'template'
+				field:
+					element: 'hidden'
+					label: 'Template'
+					value: 'post.jade'
+			- name: "date"
+				field:
+					element: "text"
+					label: "Date"
+					help: "YYYY-MM-DD HH:MM:SS"
+					value: "2016-01-01 14:30:00"
