@@ -36,9 +36,15 @@
     "predeploy-pr": "npm test && npm run build && npm run build-nofollow",
     "deploy-pr": "surge --project $npm_package_main"
   },
-  "author": {
-    "name": "Edward Essing",
-    "email": "edwardessing@gmail.com",
-    "url": "http://edwardessing.com"
-  }
+  "author": "Edward Essing <edwardessing@gmail.com> (http://edwardessing.com)",
+  "main": "build.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardessing/shrine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edwardessing/shrine/issues"
+  },
+  "homepage": "https://github.com/edwardessing/shrine#readme"
 }
