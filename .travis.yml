@@ -1,11 +1,11 @@
 language: node_js
 node_js:
   - "7.4.0"
-deploy:
-  provider: surge
-  project: /home/travis/build/edwardessing/shrine/build
-  domain: shrine.edwardessing.surge.sh
-  skip_cleanup: true
+# deploy:
+#   provider: surge
+#   project: /home/travis/build/edwardessing/shrine/build
+#   domain: shrine.edwardessing.surge.sh
+#   skip_cleanup: true
 # after_success:
 #   # - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && npm run deploy
 #   # - test $TRAVIS_PULL_REQUEST && npm run deploy-pr -- --domain pr-$TRAVIS_PULL_REQUEST.shrine.edwardessing.surge.sh

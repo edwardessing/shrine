@@ -31,7 +31,8 @@
     "watch-html": "onchange './layouts/*.jade' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
     "start": "npm run build && npm run watch-html",
     "move": "mv ./src/CNAME ./build/",
-    "test": "echo \"Error: no test specified.\""
+    "test": "echo \"Error: no test specified.\"",
+    "deploy": "surge --project /home/travis/build/edwardessing/shrine/build --domain shrine.edwardessing.surge.sh"
   },
   "author": "Edward Essing <edwardessing@gmail.com> (http://edwardessing.com)",
   "main": "build.js",
