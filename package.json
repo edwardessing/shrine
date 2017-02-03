@@ -28,7 +28,7 @@
   "scripts": {
     "move": "mv ./src/CNAME ./build/",
     "test": "echo 'command not used'",
-    "start": "npm run build",
+    "start": "node build.js",
     "build": "metalsmith",
     "deploy": "surge --project ./build/ --domain http://www.shrine.edwardessing.com"
   },
