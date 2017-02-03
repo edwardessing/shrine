@@ -1,0 +1,15 @@
+{
+  "source": "./src",
+  "destination": "./build",
+  "clean": false,
+  "metadata": {
+    "site": {
+      "title": "Shrine",
+      "url": "http://shrine.edwardessing.com",
+      "author": {
+        "name": "Shrine",
+        "url": "http://shrine.edwardessing.com"
+        }
+      }
+    }
+  }

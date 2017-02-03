@@ -22,15 +22,14 @@
     "metalsmith-watch": "^1.0.1",
     "moment": "^2.6.0",
     "onchange": "^3.2.1",
-    "surge": "^0.18.0"
+    "surge": "^0.18.0",
+    "travis-ci": "^2.1.1"
   },
   "scripts": {
     "build-html": "node_modules/metalsmith/bin/metalsmith",
-    "build": "npm run build-html && npm run build-css && npm run build-js",
+    "build": "npm run build-html",
     "watch-html": "onchange './layouts/*.jade' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
-    "watch-css": "onchange './src/**/*.scss' -- npm run build-css",
-    "watch-js": "onchange './src/**/*.js' -- npm run build-js -- -dv",
-    "start": "npm run build && npm run watch-html & npm run watch-css & npm run watch-js & npm run sync",
+    "start": "npm run build && npm run watch-html",
     "move": "mv ./src/CNAME ./build/",
     "predeploy": "npm test && npm run build",
     "deploy": "surge --project $npm_package_main --domain $npm_package_homepage",
