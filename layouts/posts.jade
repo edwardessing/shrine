@@ -24,8 +24,8 @@ block content
 							.pure-g.intro
 								h1.pure-u-1.header
 									a(href='/' + file.path)!= file.title
-								h2.pure-u-1-2.chapter.time= moment(file.date).format('HH:mm')
-								h2.pure-u-1-2.chapter.date= moment(file.date).format('DD.M.YYYY')
+								//- h2.pure-u-1-2.chapter.time= moment(file.date).format('HH:mm')
+								//- h2.pure-u-1-2.chapter.date= moment(file.date).format('DD.M.YYYY')
 								.pure-u-1.post-body
 									p!= file.contents
 									br
