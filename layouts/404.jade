@@ -1,0 +1,16 @@
+extends ./partials/_layout
+
+block content
+	#main.container.pure-g
+		.white-fix.pure-g
+			//- .icon-area.grid.pure-u-1
+			.text.grid.pure-u-1
+				.copy
+					.pure-g.intro
+						h1.pure-u-1.header 
+							|	error
+						//- h2.pure-u-1-2= error.status
+					p= error
+
+					h2
+						a(href="javascript:history.back()") ↩

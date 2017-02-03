@@ -1,0 +1,26 @@
+.post-nav
+	table(cellpadding='0' cellspacing='0' border='0' align='center' style='border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border-spacing:0;')
+		tr
+			td(valign='middle')
+				.prev
+					if previous
+						a(href='/' + previous.path, title="#{ previous.title }")
+							| &#8592;
+							//- span &nbsp; #{ previous.title }
+					else
+						| &nbsp;
+
+			td(valign='middle')
+				.return
+					a(href='/posts')
+						| &#10012;
+
+
+			td(valign='middle')
+				.next
+					if next
+						a(href='/' + next.path, title="#{ next.title }")
+							//- span #{ next.title } &nbsp;
+							| &#8594;
+					else
+						| &nbsp;

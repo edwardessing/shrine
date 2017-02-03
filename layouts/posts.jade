@@ -1,0 +1,54 @@
+extends ./partials/_layout
+
+block link
+	- var selected= 'posts';
+
+block content
+	#main.container.pure-g
+		ul.index-list.list
+			each file in pagination.files
+				li.pure-g.white-fix(id=file.path)
+					.icon-area.grid.pure-u-1
+						if file && file.number
+							//- .post-icon(style='background-image: url(../../uploads/#{ file.number }.jpg)')
+							.post-icon
+
+						else
+							.post-icon
+					.bg-fix.text.grid.pure-u-1
+						.copy
+							//- a.download(href="../uploads/#{ post.id }.jpg" download="#{ post.id }")
+								.item
+									.label.new-label
+										span &#9635;
+							.pure-g.intro
+								h1.pure-u-1.header
+									a(href='/' + file.path)!= file.title
+								h2.pure-u-1-2.chapter.time= moment(file.date).format('HH:mm')
+								h2.pure-u-1-2.chapter.date= moment(file.date).format('DD.M.YYYY')
+								.pure-u-1.post-body
+									p!= file.contents
+									br
+
+		ul.pagination
+			if pagination.previous
+				//- li: a(href='/' + pagination.first.path) First
+				li: a(href='/' + pagination.previous.path) &larr;
+			else
+				li.inactive
+
+			-var n = 1
+			while n <= pagination.pages.length
+				if n == pagination.num
+					li.page-link.active
+						a(href='/posts' + '/' + n)= n++
+				else
+					li.page-link
+						a(href='/posts' + '/' + n)= n++
+
+			if pagination.next
+				li: a(href='/' + pagination.next.path) &rarr;
+				//- li: a(href='/' + pagination.last.path) Last
+			else
+				li.inactive
+

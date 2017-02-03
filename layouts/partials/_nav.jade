@@ -1,0 +1,65 @@
+block link
+	-var selected = '';
+
+-var menu = { 'home': '/', 'posts': '/posts', 'notes': '/notes.html' };
+
+.clock-group
+	a.clock-toggle.menu-clock-toggle.link.col-var
+	.menu-clock.clock
+		a.change-skin &Delta;
+		.clock-bg(onload='startClock()', style='display:block;')
+			#clockface.cf1
+			#hour.hr1
+			#minute.min1
+			#second.sec1
+
+#menu
+	a.menu-link.link.col-var
+	.dropdown
+		ul.menu-list.pure-g
+			each val, key in menu
+				if selected === key
+					li.pure-u-1-4.active-text
+						a(href=val, title=key)= key
+				else
+					li.pure-u-1-4
+						a(href=val, title=key)= key
+			li.pure-u-1-4.clock-toggle
+				a time
+		br
+		ul.post-list(style='padding:0 20px;')
+			if posts
+				each post, i in posts
+					if i < 6
+						li.pure-u-1-1
+							a.pure-g(href='/' + post.path style='text-align:center;')
+								span.pure-u-1= post.title
+								//- span.pure-u-1-2.date= moment(date).format('M.DD.YYYY')
+					else
+			else
+				| No posts to display
+
+		.style-list
+			label(for='styleSwitcher')
+			#styleSwitch.styleSwitch
+				button.colour.b-black(value='black')
+				button.colour.b-white(value='white')
+				button.colour.b-gold(value='gold')
+				br
+				button.size.b-t1(value='t1') S
+				button.size.b-t2(value='t2') M
+				button.size.b-t3(value='t3') L
+				br
+				button.grid-edit(value='pure-u-md-1-1') ⊟
+				button.grid-edit(value='pure-u-md-1-2') ⊞
+				br
+				button.align.b-left(value='left') &#10978;
+				button.align.b-center(value='center') &#10985;
+
+	//- .menu-clock.clock
+	//- 	a.change-skin
+	//- 	.clock-bg(onload='startClock()', style='display: block;')
+	//- 		#clockface.cf1
+	//- 		#hour.hr1
+	//- 		#minute.min1
+	//- 		#second.sec1

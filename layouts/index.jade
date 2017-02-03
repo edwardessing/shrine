@@ -1,0 +1,73 @@
+extends ./partials/_layout
+
+block link
+	-var selected = 'home';
+
+block content
+	#main.container.pure-g
+		.white-fix.pure-g
+			.icon-area.grid.pure-u-1
+				//- .home-icon(style='background-image: url(img/title_card.png)')
+
+			.text.grid.pure-u-1
+				.copy
+					.pure-g.intro
+						h1.pure-u-1.header
+							| Shrine
+						h2.pure-u-1-2.time
+							#home-time
+						h2.pure-u-1-2.date
+							#home-date
+					p
+						| A shrine for words
+
+					h4.demo-guide
+						| Guide
+					.copy.demo
+						.style-list
+							label(for='styleSwitcher')
+							#styleSwitch-2.switch-demo
+								.sup-space
+									sup Open Menu (top right)
+								.menu-link.link-demo.link
+								ul.pure-g.button-demo.styleSwitch
+									li.pure-u-1.pure-u-md-1-4
+										.sup-space
+											sup Colour change
+										button.colour.b-black(value='black')
+										button.colour.b-white(value='white')
+										button.colour.b-gold(value='gold')
+									li.pure-u-1.pure-u-md-1-4
+										.sup-space
+											sup Text size
+										button.size.b-t1(value='t1') S
+										button.size.b-t2(value='t2') M
+										button.size.b-t3(value='t3') L
+									li.pure-u-1.pure-u-md-1-4
+										.sup-space
+											sup Layout
+										button.grid-edit(value='pure-u-md-1-1') ⊟
+										button.grid-edit(value='pure-u-md-1-2') ⊞
+									li.pure-u-1.pure-u-md-1-4
+										.sup-space
+											sup Align
+										button.align.b-left(value='left') &#10978;
+										button.align.b-center(value='center') &#10985;
+
+					a(href="/posts").sub.hov-var
+						|	Recent
+					ul.post-list
+						each post, i in posts
+							if i < 6
+								li
+									a.pure-g(href='/' + post.path)
+										span.pure-u-1-2= post.title
+										span.pure-u-1-2.date= moment(post.date).format('M.DD.YYYY')
+
+							else
+					br
+					a(href="/posts") View all  &rarr;
+
+					a(href="/notes.html").sub.hov-var
+						|	Notes
+					a(href="/notes.html") Additional information &rarr;

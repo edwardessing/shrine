@@ -1,0 +1,37 @@
+extends ./partials/_layout
+
+block link
+	-var selected = 'notes';
+
+block content
+	#main.container.pure-g
+		.white-fix.pure-g
+			.icon-area.grid.pure-u-1
+				//- .home-icon(style='background-image: url(img/title_card.png)')
+			.text.grid.pure-u-1
+				.copy.notes
+					.pure-g.intro
+						h1.pure-u-1.header
+							|	Notes
+						h2.pure-u-1-2.time
+								#home-time
+						h2.pure-u-1-2.date
+								#home-date
+					h4
+						| Author
+					p
+						a(href="http://edwardessing.com/" target="_blank") Edward Essing
+					//- h4
+					//- 	| Colophon
+					//- p
+					//- 	ul
+					//- 		li Platform:
+					//- 			a(href="http://nodejs.org/" target="_blank") Node.js
+					//- 		li Application framework:
+					//- 			a(href="http://expressjs.com/" target="_blank") Express.js
+					//- 		li DBM:
+					//- 			a(href="http://www.postgresql.org/" target="_blank") PostgreSQL
+					h4
+						| Updates
+					p
+						| *

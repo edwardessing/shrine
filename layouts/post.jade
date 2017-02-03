@@ -1,0 +1,24 @@
+extends ./partials/_layout
+
+block link
+	- var selected= 'post';
+
+block content
+	#main.container.single-post
+			.white-fix.pure-g
+				.icon-area.grid.pure-u-1
+					//- .post-icon(style='background-image: url(../../../uploads/#{ number }.jpg)')
+					.post-icon
+
+				.text.grid.pure-u-1
+					.copy
+						.pure-g.intro
+							h1.pure-u-1.header!= title
+							h2.pure-u-1-2.chapter.time= moment(date).format('HH:mm')
+							h2.pure-u-1-2.chapter.date= moment(date).format('DD.M.YYYY')
+							.pure-u-1
+								p!= contents
+								br
+
+							include ./partials/_post-nav
+
