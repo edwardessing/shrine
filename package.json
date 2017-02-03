@@ -25,7 +25,17 @@
     "surge": "^0.18.0"
   },
   "scripts": {
-    "move": "mv ./src/CNAME ./build/"
+    "build-html": "node_modules/metalsmith/bin/metalsmith",
+    "build": "npm run build-html && npm run build-css && npm run build-js",
+    "watch-html": "onchange './layouts/*.jade' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
+    "watch-css": "onchange './src/**/*.scss' -- npm run build-css",
+    "watch-js": "onchange './src/**/*.js' -- npm run build-js -- -dv",
+    "start": "npm run build && npm run watch-html & npm run watch-css & npm run watch-js & npm run sync",
+    "move": "mv ./src/CNAME ./build/",
+    "predeploy": "npm test && npm run build",
+    "deploy": "surge --project $npm_package_main --domain $npm_package_homepage",
+    "predeploy-pr": "npm test && npm run build && npm run build-nofollow",
+    "deploy-pr": "surge --project $npm_package_main"
   },
   "author": {
     "name": "Edward Essing",
