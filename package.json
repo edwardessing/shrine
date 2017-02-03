@@ -30,7 +30,7 @@
     "test": "echo 'command not used'",
     "start": "npm run build",
     "build": "metalsmith",
-    "deploy": "surge --project ./build/ --domain shrine.edwardessing.surge.sh"
+    "deploy": "surge --project ./build/ --domain shrine.edwardessing.com"
   },
   "author": "Edward Essing <edwardessing@gmail.com> (http://edwardessing.com)",
   "main": "build.js",
