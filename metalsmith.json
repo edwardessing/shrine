@@ -39,7 +39,7 @@
 			"relative": false
 		},
 		"metalsmith-sass": {
-			"outputDir": "stylesheets",
+			"outputDir": "css",
 			"outputStyle": "expanded"
 		},
 		"metalsmith-uglify": {
