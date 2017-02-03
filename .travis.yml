@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "7.4.0"
 script:
-  - npm run build
+  - npm start
 after_success:
   - surge --project ./build/ --domain http://www.shrine.edwardessing.com
 # after_success:
