@@ -4,7 +4,7 @@
   "description": "shrine",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^6.7.2",
+    "autoprefixer": "^5.2.0",
     "browser-sync": "^2.18.7",
     "browserify": "^14.0.0",
     "jade": "^1.11.0",
@@ -34,7 +34,7 @@
     "move": "mv ./src/CNAME ./build/",
     "test": "echo 'command not used'",
     "build-html": "node_modules/metalsmith/bin/metalsmith",
-    "build-css": "node-sass src/css/app.scss",
+    "build-css": "node-sass src/css/index.scss | autoprefixer > build/css/index.css",
     "build-js": "browserify src/js/script.js -o build/js/script.js",
     "build": "npm run build-html && npm run build-css && npm run build-js",
     "watch-html": "onchange './layouts/*.jade' './layouts/**/*.jade' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
