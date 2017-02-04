@@ -1,7 +1,10 @@
 /*** CSS ***/
 
-/** * **/
+* {
+	background: red !important;
+}
 
+/** * **/
 ::selection {
 	background: rgb(180,160,60);
 	color: white;
