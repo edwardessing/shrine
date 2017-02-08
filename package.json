@@ -1,8 +1,11 @@
 {
-  "name": "shrine",
+  "name": "edes-shrine",
   "version": "1.0.0",
-  "description": "shrine",
-  "license": "ISC",
+  "description": "Edward Essing — Shrine",
+  "license": "FTP",
+  "private": true,
+  "author": "Edward Essing <edwardessing@gmail.com> (http://www.edwardessing.com)",
+  "main": "build/",
   "dependencies": {
     "autoprefixer": "^5.2.0",
     "browser-sync": "^2.18.7",
@@ -12,6 +15,7 @@
     "metalsmith-collections": "^0.7.0",
     "metalsmith-concat": "^3.0.3",
     "metalsmith-define": "^1.0.0",
+    "metalsmith-just-a-moment": "^1.0.0",
     "metalsmith-layouts": "^1.4.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-pagination": "^1.4.0",
@@ -40,16 +44,5 @@
     "start": "npm run build && npm run watch-html & npm run watch-css & npm run watch-js & npm run sync",
     "deploy": "surge --project ./build/ --domain shrine.edwardessing.com",
     "stage": "surge --project ./build/ --domain shrine.edwardessing.com"
-  },
-  "author": "Edward Essing <edwardessing@gmail.com> (http://www.edwardessing.com)",
-  "main": "build.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edwardessing/shrine.git"
-  },
-  "bugs": {
-    "url": "https://github.com/edwardessing/shrine/issues"
-  },
-  "homepage": "https://github.com/edwardessing/shrine#readme"
+  }
 }

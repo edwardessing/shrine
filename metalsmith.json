@@ -3,7 +3,7 @@
 	"destination": "build",
 	"plugins": {
 		"metalsmith-define": {
-			"moment": "require('moment')"
+			"moment": "require(moment)"
 		},
 		"metalsmith-collections": {
 			"pages": {
@@ -44,6 +44,11 @@
 			"partials": "partials",
 			"default": "post.jade",
 			"pattern": "**/*.html"
+		},
+		"metalsmith-just-a-moment": {
+			"pattern": "**/*.md",
+			"scanFiles": true,
+			"scanMetadata": true
 		}
 	}
 }

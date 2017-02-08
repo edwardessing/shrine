@@ -7,7 +7,6 @@ block content
 	#main.container.pure-g
 		.white-fix.pure-g
 			.icon-area.grid.pure-u-1
-				//- .home-icon(style='background-image: url(img/title_card.png)')
 
 			.text.grid.pure-u-1
 				.copy
@@ -63,6 +62,7 @@ block content
 									a.pure-g(href='/' + post.path)
 										span.pure-u-1-2= post.title
 										//- span.pure-u-1-2.date= moment(post.date).format('M.DD.YYYY')
+										span.pure-u-1-2.chapter.date= post.date
 
 							else
 					br

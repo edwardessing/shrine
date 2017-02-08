@@ -10,22 +10,18 @@ block content
 				li.pure-g.white-fix(id=file.path)
 					.icon-area.grid.pure-u-1
 						if file && file.number
-							//- .post-icon(style='background-image: url(../../uploads/#{ file.number }.jpg)')
 							.post-icon
-
 						else
 							.post-icon
 					.bg-fix.text.grid.pure-u-1
 						.copy
-							//- a.download(href="../uploads/#{ post.id }.jpg" download="#{ post.id }")
-								.item
-									.label.new-label
-										span &#9635;
 							.pure-g.intro
 								h1.pure-u-1.header
 									a(href='/' + file.path)!= file.title
-								//- h2.pure-u-1-2.chapter.time= moment(file.date).format('HH:mm')
-								//- h2.pure-u-1-2.chapter.date= moment(file.date).format('DD.M.YYYY')
+									//- h2.pure-u-1-2.chapter.time= moment(file.date).format('HH:mm')
+									//- h2.pure-u-1-2.chapter.date= moment(file.date).format('DD.M.YYYY')
+									h2.pure-u-1-2.chapter.time
+									h2.pure-u-1-2.chapter.date= file.date
 								.pure-u-1.post-body
 									p!= file.contents
 									br
@@ -51,4 +47,3 @@ block content
 				//- li: a(href='/' + pagination.last.path) Last
 			else
 				li.inactive
-
