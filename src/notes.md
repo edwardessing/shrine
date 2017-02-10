@@ -1,5 +1,5 @@
 ---
 title: notes
-layout: notes.jade
+layout: notes.pug
 permalink: false
 ---

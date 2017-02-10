@@ -23,7 +23,7 @@
 			"collections.posts": {
 				"perPage": 6,
 				"first": "posts/index.html",
-				"layout": "posts.jade",
+				"layout": "posts.pug",
 				"path": "posts/:num/index.html",
 				"pageMetadata": {
 					"title": "Archive"
@@ -39,10 +39,10 @@
 			"relative": false
 		},
 		"metalsmith-layouts": {
-			"engine": "jade",
+			"engine": "pug",
 			"directory": "layouts",
 			"partials": "partials",
-			"default": "post.jade",
+			"default": "post.pug",
 			"pattern": "**/*.html"
 		},
 		"metalsmith-just-a-moment": {

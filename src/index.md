@@ -1,5 +1,5 @@
 ---
 title: index
-layout: index.jade
+layout: index.pug
 permalink: false
 ---
