@@ -3,7 +3,7 @@ prose:
 	rooturl: "src"
 	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
-    "":
+    posts:
       - name: "number"
         field:
           element: "number"
