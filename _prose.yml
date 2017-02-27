@@ -1,39 +1,39 @@
 prose:
-  rooturl: "src"
-  media: "media"
+  rooturl: 'src'
+  media: 'media'
   metadata:
-    src/_posts:
-      - name: "title"
+    'src/_posts':
+      - name: 'title'
         field:
-          element: "text"
-          label: "Title"
-          placeholder: "Enter a title for your post"
-          type: "text"
-      - name: "publishDate"
+          element: 'text'
+          label: 'Title'
+          placeholder: 'Enter a title for your post'
+          type: 'text'
+      - name: 'publishDate'
         field:
-          element: "hidden"
-          value: "CURRENT_DATETIME"
-      - name: "modifyDate"
+          element: 'hidden'
+          value: 'CURRENT_DATETIME'
+      - name: 'modifyDate'
         field:
-          element: "hidden"
-          value: "CURRENT_DATETIME"
-      - name: "author"
+          element: 'hidden'
+          value: 'CURRENT_DATETIME'
+      - name: 'author'
         field:
-          element: "select"
-          label: "Author"
-          help: "Who are you?"
+          element: 'select'
+          label: 'Author'
+          help: 'Who are you?'
           options:
-            - name: "Kaitlin"
-              value: "Kaitlin Abbitt"
-            - name: "Fernando"
-              value: "Fernando Godina"
-            - name: "Eric"
-              value: "Eric Toledo"
-            - name: "Aarron"
-              value: "Aarron Walter"
-            - name: "Jacob"
-              value: "Jacob Davidson"
-      - name: "layout"
+            - name: 'Kaitlin'
+              value: 'Kaitlin Abbitt'
+            - name: 'Fernando'
+              value: 'Fernando Godina'
+            - name: 'Eric'
+              value: 'Eric Toledo'
+            - name: 'Aarron'
+              value: 'Aarron Walter'
+            - name: 'Jacob'
+              value: 'Jacob Davidson'
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "post.jade"
+          element: 'hidden'
+          value: 'post.jade'
