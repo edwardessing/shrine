@@ -1,12 +1,9 @@
-baseurl: /starter
-permalink: pretty
-markdown: rdiscount
 prose:
 		# Configurations ...
 	rooturl: "src"
 	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
-		posts:
+		_posts:
 			- name: "number"
 				field:
 					element: "number"
