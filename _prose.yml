@@ -1,27 +1,30 @@
+baseurl: /starter
+permalink: pretty
+markdown: rdiscount
 prose:
 		# Configurations ...
 	rooturl: "src"
 	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
-    posts:
-      - name: "number"
-        field:
-          element: "number"
-          label: "Number"
-          value: ""
-      - name: "title"
-        field:
-          element: "text"
-          label:
-          value: ""
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "date"
-        field:
-          element: "number"
+		posts:
+			- name: "number"
+				field:
+					element: "number"
+					label: "Number"
+					value: ""
+			- name: "title"
+				field:
+					element: "text"
+					label:
+					value: ""
+			- name: "title"
+				field:
+					element: "text"
+					label: "Title"
+					value: ""
+			- name: "date"
+				field:
+					element: "number"
 					label: "Date"
 					value: CURRENT_DATETIME
 		# src/posts:
