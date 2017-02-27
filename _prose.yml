@@ -13,7 +13,7 @@ prose:
         field:
           element: 'text'
 					label: 'Date'
-					value: 'CURRENT_DATETIME'
+					value: 'YYYY-MM-DD'
 					type: 'text'
       - name: 'author'
         field:
