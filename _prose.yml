@@ -9,15 +9,7 @@ prose:
           label: 'Title'
           placeholder: 'Enter a title for your post'
           type: 'text'
-      - name: 'publishDate'
-        field:
-          element: 'hidden'
-          value: 'CURRENT_DATETIME'
-      - name: 'modifyDate'
-        field:
-          element: 'hidden'
-          value: 'CURRENT_DATETIME'
-      - name: 'modifyDate'
+      - name: 'date'
         field:
           element: 'text'
 					label: 'Date'
