@@ -9,11 +9,13 @@ prose:
           label: 'Title'
           placeholder: 'Enter a title for your post'
           type: 'text'
-      - name: 'date'
+      - name: 'Date'
         field:
-        	element: 'text'
-        	label: 'Date'
-          value: 'CURRENT_DATETIME'
+          element: 'text'
+					label: 'Date'
+					value: 'CURRENT_DATETIME'
+					placeholder: 'CURRENT_DATETIME'
+					type: 'text'
       - name: 'layout'
         field:
           element: 'hidden'
