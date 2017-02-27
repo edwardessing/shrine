@@ -10,7 +10,7 @@
 				"pattern": "*.md"
 			},
 			"posts": {
-				"pattern": "_posts/**/*.md",
+				"pattern": "posts/**/*.md",
 				"sortBy": "number",
 				"reverse": true
 			}
