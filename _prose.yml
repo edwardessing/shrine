@@ -3,14 +3,47 @@ prose:
 	rooturl: "src"
 	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
-		src/posts:
-			- name: "title"
-				field:
-					element: "text"
-					label: "Title"
-					value: ""
-			- name: "date"
-				field:
-					element: "number"
-					label: "Date"
-					value: CURRENT_DATETIME
+    src/posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
+		# src/posts:
+		# 	- name: "title"
+		# 		field:
+		# 			element: "text"
+		# 			label: "Title"
+		# 			value: ""
+		# 	- name: "date"
+		# 		field:
+		# 			element: "number"
+		# 			label: "Date"
+		# 			value: CURRENT_DATETIME
