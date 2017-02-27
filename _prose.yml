@@ -3,7 +3,7 @@ prose:
 	rooturl: "src"
 	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
-		_posts:
+		src/_posts:
 			- name: "number"
 				field:
 					element: "number"
@@ -24,14 +24,3 @@ prose:
 					element: "number"
 					label: "Date"
 					value: CURRENT_DATETIME
-		# src/posts:
-		# 	- name: "title"
-		# 		field:
-		# 			element: "text"
-		# 			label: "Title"
-		# 			value: ""
-		# 	- name: "date"
-		# 		field:
-		# 			element: "number"
-		# 			label: "Date"
-		# 			value: CURRENT_DATETIME
