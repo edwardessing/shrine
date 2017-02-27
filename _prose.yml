@@ -1,6 +1,3 @@
-baseurl: /starter
-permalink: pretty
-markdown: rdiscount
 prose:
 		# Configurations ...
 	rooturl: "src"
@@ -27,3 +24,14 @@ prose:
 					element: "number"
 					label: "Date"
 					value: CURRENT_DATETIME
+		# src/posts:
+		# 	- name: "title"
+		# 		field:
+		# 			element: "text"
+		# 			label: "Title"
+		# 			value: ""
+		# 	- name: "date"
+		# 		field:
+		# 			element: "number"
+		# 			label: "Date"
+		# 			value: CURRENT_DATETIME
