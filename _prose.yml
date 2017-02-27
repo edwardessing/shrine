@@ -17,6 +17,12 @@ prose:
         field:
           element: 'hidden'
           value: 'CURRENT_DATETIME'
+      - name: 'modifyDate'
+        field:
+          element: 'text'
+					label: 'Date'
+					value: 'CURRENT_DATETIME'
+					type: 'text'
       - name: 'author'
         field:
           element: 'select'
