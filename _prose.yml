@@ -1,7 +1,6 @@
 prose:
 		# Configurations ...
 	rooturl: "src"
-	siteurl: "http://shrine.edwardessing.com/"
 	metadata:
 		src/_posts:
 			- name: "number"
