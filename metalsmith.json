@@ -11,7 +11,7 @@
 			},
 			"posts": {
 				"pattern": "posts/**/*.md",
-				"sortBy": "number",
+				"sortBy": "date",
 				"reverse": true
 			}
 		},
