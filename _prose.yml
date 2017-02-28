@@ -15,4 +15,5 @@ prose:
           label: 'Date'
           help: 'YYYY-MM-DD'
           placeholder: 'CURRENT_DATETIME'
+          value: 'CURRENT_DATETIME'
           type: 'text'
