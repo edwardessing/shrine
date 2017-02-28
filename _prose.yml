@@ -14,5 +14,5 @@ prose:
           element: 'text'
           label: 'Date'
           help: 'YYYY-MM-DD'
-          placeholder: 'CURRENT-DATE'
+          placeholder: 'CURRENT_DATETIME'
           type: 'text'
