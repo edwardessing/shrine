@@ -23,7 +23,8 @@ Just please don’t expect me<br>
 To send you candles and a cake<br>
 <br>
 Could you forgive me<br>
-I felt so rude<br>
+I feel so rude<br>
 And for still thinking about you<br>
 Because even that seems cruel<br>
-But maybe I’ll remember next year<br>
+
+Maybe I’ll remember next time<br>
