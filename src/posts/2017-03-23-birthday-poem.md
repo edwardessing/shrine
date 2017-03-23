@@ -11,7 +11,7 @@ My closest friends or even ex-lovers<br>
 I could tell you my brothers’<br>
 But thats because it’s in my blood<br>
 And June/July are a nice pair so<br>
-That may make it easier on my mind<br>
+That may make it easier to celebrate<br>
 <br>
 I know we’re talking about march<br>
 Another day, month, year where<br>
