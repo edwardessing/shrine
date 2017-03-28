@@ -1,7 +1,8 @@
 ---
 number: 51
 title: Everyday for the last month
-date: 2016-09-08 01:00
+date: '2016-09-08 01:00'
+published: true
 ---
 
 Carry the distinction too far<br>
@@ -23,7 +24,7 @@ As useless as I’m led to believe<br>
 <br>
 I’ll stay in the cage<br>
 Innocently watching while<br>
-Your car carries us<br>
+Your soul carries us<br>
 A couple more miles<br>
 Don’t stop, just go<br>
 Until you hit the road<br>
