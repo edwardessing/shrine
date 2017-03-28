@@ -1,18 +1,18 @@
 ---
 number: 55
 title: Conscience came a day late
-date: 2016-09-17 01:00
+date: '2016-09-17 01:00'
+published: true
 ---
-
 Do you often find yourself<br>
-Swimming in the pools<br>
-Of others’ gold and glory<br>
-I can be so cruel but<br>
+Swimming in pools of<br>
+Another’s gold and glory<br>
+I can be so cruel but <br>
 Can’t help call out a fool<br>
-<br>
-Building castles with black sand<br>
-Caught in a landfill of poor reason<br>
-May mercy bend back my hands<br>
-They will blow us into ether<br>
-If I refuse to listen to sellouts<br>
-Standing on capsizing clouds<br>
+You refuse to listen on<br>
+Top of capsizing clouds<br>
+While I am caught in a landfill<br>
+Of reason, building castles<br>
+With salt and black sand<br>
+May mercy bend back our hands<br>
+And blow us away into the ether<br>
