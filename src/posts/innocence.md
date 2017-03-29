@@ -1,21 +1,21 @@
 ---
 number: 34
 title: Innocence
-date: 2016-06-21 13:55
+date: '2016-06-21 13:55'
+published: true
 ---
-
 Your youth is suspended<br>
-Surfing the wave’s crest<br>
-Playing with scores of<br>
-Crashing colour caused<br>
+Surfing the wave’s crest —<br>
+Playing with scores of<br> 
+Crashing colour caused<br> 
 By innocent indifference<br>
 <br>
 I try climbing to you<br>
-Perched on the peak<br>
+Perched on the peak,<br>
 But foam fills my callouses<br>
 And I fumble then sink<br>
 <br>
 If the white chaos won't<br>
-Let me reach your feet<br>
-Can the current at least<br>
+Let me reach your seat<br>
+Can the current at least<br> 
 Keep me afloat on your sea<br>
