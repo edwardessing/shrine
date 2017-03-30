@@ -8,19 +8,21 @@ But can you blame me<br>
 I never remember birthdays<br>
 Couldn’t tell when my parents were born,<br>
 Closest friends or even ex-lovers<br>
-But I could tell you about my brothers’<br>
-Because they’re laced in my blood and<br>
+Yet I could tell you my brothers’<br>
+Because it’s in my blood and<br>
 June/July are a nice pair so<br>
 That makes it easier to celebrate<br>
 <br>
-I know we’re talking about March<br>
 Another day joins the year where<br>
 I’ll remember your touch and face<br>
-But could never memorise a date<br>
-I’ll have your laugh and gaze<br>
-Locked away in my memories<br>
-Just please don’t expect me<br>
-To send you candles and cake<br>
+For as long as I live<br>
+But all the same<br>
+I can’t memorise a date<br>
+I’ll take your laugh and gaze<br>
+To my grave<br>
+But please don’t expect me<br>
+To know when to send you<br>
+Candles and cake<br>
 <br>
 Will you forgive me? I feel so rude<br>
 And for still thinking about you<br>
