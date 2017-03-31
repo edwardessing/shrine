@@ -1,18 +1,17 @@
 ---
 number: 43
 title: Consequence
-date: 2016-08-10 12:40
+date: '2016-08-10 12:40'
+published: true
 ---
-
-You can tell through<br>
-The lies and laughter<br>
-I still make more<br>
-Mistakes than love<br>
+You can tell through the lie<br>
+And laughter, I still make<br>
+More mistakes than love<br>
 <br>
-Even when fucked<br>
+Even when fucked and<br>
 Fraught with consequence<br>
-I give up before<br>
-It gets anywhere<br>
+I give up<br>
+Before it gets anywhere<br>
 <br>
 A former thief beaten<br>
 By his own guilty fists<br>
@@ -23,8 +22,3 @@ For your entertainment<br>
 This place is a prison<br>
 Pulling plugs to give way<br>
 To a washed-up wisdom<br>
-<br>
-Asking over and over<br>
-Will raising the stake<br>
-Hit my heart or<br>
-Leave me kneeling<br>
