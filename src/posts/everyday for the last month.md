@@ -26,6 +26,3 @@ I’ll stay in the cage<br>
 Innocently watching while<br>
 Your soul carries us<br>
 A couple more miles<br>
-Don’t stop, just go<br>
-Until you hit the road<br>
-That ends with a smile<br>
