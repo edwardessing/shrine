@@ -1,19 +1,19 @@
 ---
 number: 39
 title: Plain sight
-date: 2016-08-01 07:45
+date: '2016-08-01 07:45'
+published: true
 ---
-
 Two too many arrows<br>
-Piercing tree in plain sight<br>
+Piercing a tree in plain sight<br>
 Wasn’t sure what to aim for<br>
-Only swore you wanted to leave<br>
+Only swore you asked for it<br>
 <br>
-Splinters, tears are running<br>
-After our pile of problems<br>
+Tears are running after<br>
+Our pile of problems<br>
 While the dead leaves glow<br>
 Behind a furnace<br>
 Ironed out to molten salt<br>
-So you could see <br>
+So you could see<br>
 The hundredth part<br>
 In your own faith<br>
