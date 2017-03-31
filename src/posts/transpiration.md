@@ -1,13 +1,10 @@
 ---
 number: 8
-title: Transpiration
-date: 2016-05-18 23:00
+title: Vanish
+date: '2016-05-18 23:00'
+published: true
 ---
-
-Cast headfirst into<br>
-A shallow pool of tiles<br>
-Poised like tiny spears, wear me<br>
-Down into a wasteland of veins<br>
+Cast headfirst into a shallow pool<br>
+Tiles poised like tiny spears<br> 
+Wear me down to a wasteland of veins<br>
 Wilted leaves across a punctured sea<br>
-Somewhere in time between a death<br>
-And sleeping rebirth<br>
