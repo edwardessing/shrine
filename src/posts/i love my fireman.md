@@ -1,9 +1,9 @@
 ---
 number: 5
 title: I love my fireman
-date: 2016-05-15 17:30
+date: '2016-05-15 17:30'
+published: true
 ---
-
 We have an excellent diamond<br>
 Good enough to host us<br>
 Its meadow stays still<br>
