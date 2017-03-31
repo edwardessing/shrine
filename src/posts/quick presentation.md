@@ -1,9 +1,9 @@
 ---
 number: 46
 title: Quick presentation
-date: 2016-08-26 20:00
+date: '2016-08-26 20:00'
+published: true
 ---
-
 What's it like to be pardoned<br>
 Patron saint of science<br>
 Your sadness couldn't be<br>
@@ -19,7 +19,6 @@ Away from this and that<br>
 Will keep us talking nonsense<br>
 At the edge of pure bliss<br>
 <br>
-Better act sooner<br>
-Than later like the loser<br>
-Lying at my glory I paint<br>
-Pure patterns of boredom<br>
+Better act sooner than later<br>
+Like the loser lying at my glory<br>
+I paint pure patterns of boredom<br>
