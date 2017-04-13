@@ -1,7 +1,8 @@
 ---
 number: 40
 title: Still good
-date: 2016-07-31 07:45
+date: '2016-07-31 07:45'
+published: true
 ---
 
 Still good<br>
@@ -14,9 +15,7 @@ Barely even touching the surface<br>
 Serviced goods taken for granted<br>
 I knew this would never happen<br>
 <br>
-Wait with me for five<br>
-Minutes at a time when nothing<br>
-Ever happens<br>
+Wait with me for five minutes<br>
 Wait with me on standby<br>
 Let quiet contemplation<br>
-Be your offering<br>
+Be your gift<br>
