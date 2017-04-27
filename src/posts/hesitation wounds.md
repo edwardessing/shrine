@@ -15,11 +15,9 @@ That kiss in the blue cape<br>
 I told you would happen<br>
 Wasn’t a kiss at all, only<br>
 A stuttered embrace<br>
-Brought on by a cold<br>
-Crushing winter ocean<br>
+Brought on by my cold<br>
+Crushing winter waves<br>
 <br>
-At the very least you<br>
-Were the softest touch<br>
-I would never guess<br>
-Or could ever remember<br>
-How hard this could be<br>
+You were the softest touch<br>
+And I could never guess<br>
+How hard this would be<br>
